@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(42, 190, 54);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: var(--color-primario);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+  

@@ -1,0 +1,48 @@
+
+.titulo {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #3b5998;
+    margin-bottom: 20px;
+  }
+  
+
+  p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px;
+    text-align: justify;
+    color: #333;
+  }
+  
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+
+  strong {
+    color: #3b5998;
+    font-size: 1.3em;
+  }
+  
+
+  .figure-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+
+
+  body {
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  

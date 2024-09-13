@@ -11,10 +11,6 @@ def ir_a_Nabr():
 def ir_a_fauna():
    return render_template('fauna.html')
 
-# @app.route('/fauna')
-# def ir_a_fauna():
-#     fauna_data = web_scraping_biodiversidad.scrape_fauna()
-#     return render_template('fauna.html', fauna=fauna_data)
 
 @app.route('/flora')
 def ir_a_flora():
@@ -26,8 +22,12 @@ def ir_a_protege():
 
 @app.route('/map')
 def ir_a_map():
-    return render_template('map.html')
+   return render_template('map.html')
 
+@app.route('/informacion')
+def ir_a_informacion():
+   return render_template('informacion.html')
 
 if __name__ == '__main__':
    app.run(debug=True,port=5000)
+

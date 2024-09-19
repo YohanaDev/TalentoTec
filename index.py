@@ -3,7 +3,7 @@ from flask import Flask, render_template
 #aqui el objeto 
 app = Flask (__name__)
 #aqui las rutas
-@app.route('/Nabr')
+@app.route('/')
 def ir_a_Nabr():
    return render_template('Nabr.html')
 
@@ -27,6 +27,10 @@ def ir_a_map():
 @app.route('/informacion')
 def ir_a_informacion():
    return render_template('informacion.html')
+
+@app.route('/estadistica')
+def ir_a_estadistica():
+   return render_template('estadistica.html')
 
 if __name__ == '__main__':
    app.run(debug=True,port=5000)

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for ('static',filename='css/style1.css')}}">
+    <link rel="stylesheet" href="{{url_for ('static',filename='css/footer.css')}}">
+    <title>Cifras</title>
+</head>
+<header class="menu">
+    <ul>
+        <li><a href="{{url_for ('ir_a_Nabr')}}">Inicio</a></li>
+        <li><a href="{{url_for ('ir_a_flora')}}">Flora</a></li>
+        <li><a href="{{url_for ('ir_a_fauna')}}">Fauna</a></li>
+        <li><a href="{{url_for ('ir_a_protege')}}">Protege</a></li>
+        <li><a href="{{url_for ('ir_a_map')}}">Mapas</a></li>
+        <li><a href="{{url_for ('ir_a_informacion')}}">Mas Informacion</a></li>
+        <li><a href="{{url_for ('ir_a_estadistica')}}">Estadisticas</a></li>
+    </ul>
+</header>
+<br>
+<br>
+<body>
+
+<div class="intro-text">
+    <h1>Datos de Interes</h1>
+    <p>Esta sección muestra varios gráficos que explican datos relacionados con turismo y especies nativas de los departamentos de Boyaca y cundinamarca. A continuación, encontrará cuatro graficas que representan diferentes aspectos de los datos visualizados.</p>
+  </div>
+  
+ 
+  <div class="grid-container">
+    <div class="grid-item">
+      <h1>Gráfico de Turismo</h1>
+      <p>Este grafico, nos muestra de que regiones tenemos la mayor afluencia de
+        turistas en el departamento de Boyaca.</p>
+      <img class="torta" src="{{url_for('static',filename='imagenes/grafico_torta.png')}}" alt="grafico turismo">
+    </div>
+    <div class="grid-item">
+      <h1>Gráfico de Cantidad de Especies por tipo</h1>
+      <p>Este gráfico detalla la distribución de especies en el área analizada.</p>
+      <img class="torta" src="{{url_for('static',filename='imagenes/Especies.png')}}" alt="grafico especies">
+    </div>
+    <div class="grid-item">
+      <h1>Gráfico Biodeversidad en Boyaca</h1>
+      <p>Este gráfico ofrece un análisis más profundo de la relación entre especies y turismo.</p>
+      <img class="torta" src="{{url_for('static',filename='imagenes/grafico2.png')}}" alt="grafico especies">
+    </div>
+    <div class="grid-item">
+      <h1>Cantidad de especies por departamento 2</h1>
+      <p>Este gráfico muestra la cantidad de especies endemicas por departamento.</p>
+      <img class="torta" src="{{url_for('static',filename='imagenes/GraficaEspecies.png')}}" alt="grafico especies">
+    </div>
+  </div>
+  
+</section>
+</section>
+<div class="footer">
+    <p>&copy; 2024 Mi Página. Todos los derechos reservados.</p>
+    <p>
+        <a href="https://github.com/settings/profile">Heidy Yohana Saavedra</a> |
+        <a href="#">Contacto</a>
+    </p>
+</div>
+</body>
+</html>
